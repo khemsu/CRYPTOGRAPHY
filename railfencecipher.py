@@ -1,6 +1,6 @@
 
 def main(): 
-	clearText = "samarpan"
+	clearText = "sandip"
 	print ("Original Text: " + clearText)
 	print()
 	
