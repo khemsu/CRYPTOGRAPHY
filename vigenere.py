@@ -37,7 +37,7 @@ def decrypt(cipher, key):
 
 
 def main():
-    message = "samarpan"
+    message = "sandip"
     key = "banana"
     encrypted_message = encrypt(message, key)
     decrypted_message = decrypt(encrypted_message, key)
