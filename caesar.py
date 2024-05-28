@@ -12,7 +12,7 @@ def encypt_func(txt, s):
             result += chr((ord(char) + s - 97) % 26 + 97)
     return result
 # check the above function
-txt = "samarpan"
+txt = "sandip"
 s = 2
 result=encypt_func(txt, s)
 
