@@ -72,7 +72,7 @@ def decrypt(cipher, Kinv):
 
 def main():
     
-    message = "samarpan"
+    message = "sandip"
 
     K = np.matrix([[3, 3], [2, 5]])
     Kinv = matrix_mod_inv(K, len(alphabet))
